@@ -11,8 +11,8 @@ load_dotenv()
 
 # Opções de provedores e modelos disponíveis
 provedores = {
-    'OpenAI': ['gpt-3.5-turbo-0125', 'gpt-4-turbo'],
     'Groq': ['llama-3.3-70b-versatile', 'mixtral-8x7b'],
+    'OpenAI': ['gpt-3.5-turbo-0125', 'gpt-4-turbo'],
     'Hugging Face': ['HuggingFaceH4/zephyr-7b-beta', 'mistralai/Mixtral-8x7B-Instruct-v0.1']
 }
 
